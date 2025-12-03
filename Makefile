@@ -10,17 +10,17 @@ MLX_LIB   := $(MLX_DIR)/libmlx.a
 MLX_FLAGS := -L$(MLX_DIR) -lmlx -lXext -lX11 -lm
 
 SRC       := \
-	SRC/ft_strchr.c \
-	SRC/ft_strdup.c \
-	SRC/ft_strjoin.c \
-	SRC/ft_strlen.c \
-	SRC/ft_substr.c \
-	SRC/get_next_line.c \
-	SRC/ft_printf_utils0.c \
-	SRC/ft_printf_utils1.c \
-	SRC/ft_printf.c \
+	system_functions/ft_strchr.c \
+	system_functions/ft_strdup.c \
+	system_functions/ft_strjoin.c \
+	system_functions/ft_strlen.c \
+	system_functions/ft_substr.c \
+	system_functions/get_next_line.c \
+	system_functions/ft_printf_utils0.c \
+	system_functions/ft_printf_utils1.c \
+	system_functions/ft_printf.c \
 	SRC/Free_memory.c \
-	SRC/ft_itoa.c \
+	system_functions/ft_itoa.c \
 	SRC/extra_functions.c \
 	SRC/map_fill_load.c \
 	SRC/map_loop_exits.c \
@@ -66,5 +66,7 @@ fclean: clean
 	@$(MAKE) -s -C $(MLX_DIR) clean > /dev/null 2>&1
 
 re: fclean all
+
+ex: all clean
 
 .PHONY: all clean fclean re

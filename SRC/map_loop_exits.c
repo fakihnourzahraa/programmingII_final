@@ -11,7 +11,7 @@ void	ft_init_mlx(t_game *g, char **map)
 		exit(EXIT_FAILURE);
 	}
 	g->win = mlx_new_window(g->mlx, g->map.col * TILE_SIZE, \
-		g->map.row * TILE_SIZE, "so_long");
+		g->map.row * TILE_SIZE, "final project");
 	if (!g->win)
 	{
 		ft_putstr_fd("Error\nWindow creation failed\n", 2);
