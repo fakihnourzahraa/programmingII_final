@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 static char	*read_until_newline(int fd, char *saved_data, char *temp_buffer)
 {

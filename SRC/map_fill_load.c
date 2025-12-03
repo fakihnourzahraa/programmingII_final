@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 void	ft_fill_game(t_game *game, char **parsed_map, t_data size)
 {

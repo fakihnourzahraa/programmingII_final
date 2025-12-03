@@ -1,7 +1,7 @@
 
-#ifndef SO_LONG_H
+#ifndef GAME_H
 
-# define SO_LONG_H
+# define GAME_H
 
 /*includes*/
 

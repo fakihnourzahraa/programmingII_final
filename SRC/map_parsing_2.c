@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 int	ft_count_lines(const char *file_name)
 {

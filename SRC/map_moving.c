@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 static void	try_move(t_game *g, int new_x, int new_y)
 {

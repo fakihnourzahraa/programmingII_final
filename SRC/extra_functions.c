@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 char	**duplicate_map_simple(char **map, int rows)
 {

@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 void	ft_init_mlx(t_game *g, char **map)
 {

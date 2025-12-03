@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 static long	ft_ln(int n)
 {

@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 int	main(int argc, char **argv)
 {

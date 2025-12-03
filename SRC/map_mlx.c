@@ -1,5 +1,5 @@
 
-#include"so_long.h"
+#include "game.h"
 
 static void	*get_texture_for(char tile, t_game *g)
 {

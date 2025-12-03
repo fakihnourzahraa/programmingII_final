@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 int	ft_is_valid_char(char c)
 {

@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 static int	handle_str(char *str)
 {

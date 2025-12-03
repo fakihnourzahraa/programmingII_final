@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 char	*ft_strchr(const char *s, int c)
 {

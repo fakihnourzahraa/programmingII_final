@@ -1,5 +1,5 @@
 
-#include "so_long.h"
+#include "game.h"
 
 t_data	ft_find_p(t_data begin, char **map, int first_length, int line_count)
 {

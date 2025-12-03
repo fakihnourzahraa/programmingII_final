@@ -1,7 +1,7 @@
 
 MAKEFLAGS += -s
 
-NAME      := so_long
+NAME      := final
 CC        := cc
 CFLAGS    := -Wall -Wextra -Werror
 
@@ -29,7 +29,7 @@ SRC       := \
 	SRC/map_parsing_2.c \
 	SRC/map_parsing.c \
 	SRC/map_parsing3.c \
-	SRC/so_long.c
+	SRC/game.c
 
 OBJS      := $(SRC:.c=.o)
 INCLUDES  := -I. -I$(MLX_DIR)
@@ -51,7 +51,7 @@ $(MLX_LIB):
 	fi
 
 %.o: %.c
-	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@ > /dev/null 2>&1
+	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@ 
 
 clean:
 	@echo "→ Cleaning object files… 🗑️"
