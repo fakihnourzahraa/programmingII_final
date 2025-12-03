@@ -29,7 +29,7 @@ SRC       := \
 	SRC/map_parsing_2.c \
 	SRC/map_parsing.c \
 	SRC/map_parsing3.c \
-	SRC/game.c
+	SRC/main.c
 
 OBJS      := $(SRC:.c=.o)
 INCLUDES  := -I. -I$(MLX_DIR)
@@ -66,7 +66,5 @@ fclean: clean
 	@$(MAKE) -s -C $(MLX_DIR) clean > /dev/null 2>&1
 
 re: fclean all
-
-ex: all clean
 
 .PHONY: all clean fclean re
